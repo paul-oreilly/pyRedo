@@ -1,0 +1,6 @@
+-   repo: git://github.com/paul-oreilly/pyRedo-render
+    sha: latest
+    alias: rendering
+
+
+

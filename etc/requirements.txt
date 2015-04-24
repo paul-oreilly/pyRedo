@@ -1,3 +1,5 @@
 Sphinx
 pep8<1.6,>=1.5.7
 pre-commit
+docopt==0.6.1
+pyYAML==3.11
