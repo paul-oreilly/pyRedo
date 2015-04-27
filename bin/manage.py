@@ -20,11 +20,11 @@ Options:
 
 # add some folders to the python path
 import sys
-sys.path.insert(0, '../')
+sys.path.insert(0, '../src')
 
 # first, we activate the virtualenv so that the script can
 #    find all the libraries (at the correct versions) via env/dev/
-from src.virtualenv import activate_virtualenv, project_root
+from virtualenv import activate_virtualenv, project_root
 activate_virtualenv()
 
 # work out some file path information
@@ -37,7 +37,7 @@ import yaml
 import requests
 import zipfile
 import zlib
-from src import yamltools
+import yamltools
 
 file_paths = {}
 DOMAIN_CONFIG_YAML = 'config.yaml'
