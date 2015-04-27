@@ -2,7 +2,7 @@
 # work out folder paths, using the location of this file as a base
 import os
 this_folder = os.path.dirname(os.path.abspath(__file__))
-project_root = os.sep.join(str(this_folder).split(os.sep)[:-2])
+project_root = os.sep.join(str(this_folder).split(os.sep)[:-1])
 venv_bin_path = os.sep.join((project_root, 'env', 'dev', 'bin'))
 
 
